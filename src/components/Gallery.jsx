@@ -2,20 +2,20 @@ import React from 'react';
 
 const images = [
   {
-    src: 'https://images.unsplash.com/photo-1599949104055-2d04026aee1e?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxTZXJ2ZXIlMjByYWNrcyUyMGluJTIwYXxlbnwwfDB8fHwxNzYyMzk5NTMwfDA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80',
-    alt: 'Server racks in a secure data center',
+    src: 'https://images.unsplash.com/photo-1576669801838-1b1c52121e6a?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxTdGVyaWxlJTIwbGFiJTIwYmVuY2glMjB3aXRofGVufDB8MHx8fDE3NjI0MDA3NjJ8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80',
+    alt: 'Sterile lab bench with beakers and flasks under soft light',
   },
   {
-    src: 'https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Laboratory equipment connected to networked systems',
+    src: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=1600&auto=format&fit=crop',
+    alt: 'Microscope with connected data acquisition in laboratory',
   },
   {
-    src: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Team collaborating on cybersecurity monitoring',
+    src: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1600&auto=format&fit=crop',
+    alt: 'Researcher handling pipette with PPE in controlled environment',
   },
   {
-    src: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?q=80&w=1200&auto=format&fit=crop',
-    alt: 'Close-up of network cabling in lab environment',
+    src: 'https://images.unsplash.com/photo-1599318142003-2570ff9dda6c?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxSZXNlYXJjaGVyJTIwaGFuZGxpbmclMjBwaXBldHRlJTIwd2l0aHxlbnwwfDB8fHwxNzYyNDAwNzYyfDA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80',
+    alt: 'Glassware with pastel liquids reflecting lab branding',
   },
 ];
 
@@ -25,7 +25,7 @@ export default function Gallery() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-semibold tracking-tight text-emerald-900 sm:text-4xl">Gallery</h2>
-          <p className="mt-3 text-emerald-800/80">A glimpse into secure, precision-driven laboratory networks.</p>
+          <p className="mt-3 text-emerald-800/80">Pastel visuals of instrumentation, workflows, and secure lab spaces.</p>
         </div>
 
         <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">

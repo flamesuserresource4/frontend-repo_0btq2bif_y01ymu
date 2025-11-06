@@ -26,14 +26,14 @@ export default function Hero() {
             <a href="#services" className="inline-flex items-center justify-center rounded-md bg-emerald-600 px-5 py-3 text-white shadow hover:bg-emerald-700 transition">
               Explore Services
             </a>
-            <a href="#about" className="inline-flex items-center justify-center rounded-md bg-white/80 px-5 py-3 text-emerald-800 shadow ring-1 ring-emerald-200 backdrop-blur hover:bg-white">
-              About Us
+            <a href="#contact" className="inline-flex items-center justify-center rounded-md bg-white/80 px-5 py-3 text-emerald-800 shadow ring-1 ring-emerald-200 backdrop-blur hover:bg-white">
+              Contact Us
             </a>
           </div>
         </div>
 
         <div className="relative mt-12 h-[420px] w-full rounded-xl bg-white/40 shadow-inner ring-1 ring-emerald-200/50 backdrop-blur lg:mt-0 lg:h-[520px]">
-          <Spline scene="https://prod.spline.design/DtQLjBkD1UpownGS/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+          <Spline scene="https://prod.spline.design/lsFGaFqoD7t-tmSb/scene.splinecode" style={{ width: '100%', height: '100%' }} />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-emerald-50/30 via-transparent to-transparent" />
         </div>
       </div>

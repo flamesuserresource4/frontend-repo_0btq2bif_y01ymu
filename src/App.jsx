@@ -4,6 +4,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Team from './components/Team';
 import Gallery from './components/Gallery';
+import Contact from './components/Contact';
 
 function Navbar() {
   return (
@@ -15,8 +16,9 @@ function Navbar() {
           <a href="#services" className="hover:text-emerald-900">Services</a>
           <a href="#team" className="hover:text-emerald-900">Manager</a>
           <a href="#gallery" className="hover:text-emerald-900">Gallery</a>
+          <a href="#contact" className="hover:text-emerald-900">Contact</a>
         </nav>
-        <a href="#services" className="hidden rounded-md bg-emerald-600 px-4 py-2 text-sm font-medium text-white shadow hover:bg-emerald-700 sm:inline-block">Get Started</a>
+        <a href="#contact" className="hidden rounded-md bg-emerald-600 px-4 py-2 text-sm font-medium text-white shadow hover:bg-emerald-700 sm:inline-block">Get Started</a>
       </div>
     </header>
   );
@@ -32,6 +34,7 @@ function Footer() {
             <a href="#about" className="hover:text-emerald-900">About</a>
             <a href="#services" className="hover:text-emerald-900">Services</a>
             <a href="#gallery" className="hover:text-emerald-900">Gallery</a>
+            <a href="#contact" className="hover:text-emerald-900">Contact</a>
           </div>
         </div>
       </div>
@@ -49,6 +52,7 @@ export default function App() {
         <Services />
         <Team />
         <Gallery />
+        <Contact />
       </main>
       <Footer />
     </div>
